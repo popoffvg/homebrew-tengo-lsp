@@ -3,27 +3,27 @@
 class TengoLsp < Formula
   desc "Language server for the Tengo scripting language"
   homepage "https://github.com/popoffvg/tengo-lsp"
-  version "0.2.4"
+  version "0.2.5"
 
   on_macos do
     on_arm do
       url "https://github.com/popoffvg/tengo-lsp/releases/download/v#{version}/tengo-lsp-darwin-aarch64.tar.gz"
-      sha256 "63c3b097392f2c1fe9453b0dcacdabcd25003231d16bfe7a9bb92a34a98cf036"
+      sha256 "b67c11616c2f1b115c789095c9cb135ee1d93b7ebc7c1de3a2b71b635edc7d5f"
     end
     on_intel do
       url "https://github.com/popoffvg/tengo-lsp/releases/download/v#{version}/tengo-lsp-darwin-x86_64.tar.gz"
-      sha256 "07e31defbb0e157d6d1c6dc037e231bc3e0dda95cea6c78e3393774cb39fa26c"
+      sha256 "7d3bd1a34a3eefbb177eaf6beb073aa27d74007be179da86d61a90ae893da515"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/popoffvg/tengo-lsp/releases/download/v#{version}/tengo-lsp-linux-aarch64.tar.gz"
-      sha256 "c945bb1fbef62e94e5a1f267333eeec7a41f6776802bf3883a94c999ae48f819"
+      sha256 "356436888243297e48e0d3751428a174eaffeba8416b44fd69a3cc7ce31abbe9"
     end
     on_intel do
       url "https://github.com/popoffvg/tengo-lsp/releases/download/v#{version}/tengo-lsp-linux-x86_64.tar.gz"
-      sha256 "34cf38e10bf6ecbe25f1c57d2a3a81e44373d94a618ca50c3f7906d43e37f232"
+      sha256 "115483b65cb134f5100a10f714a1b1f7ef341b34ef2185142f61beb35471c766"
     end
   end
 
